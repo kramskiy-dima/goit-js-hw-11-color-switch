@@ -16,9 +16,8 @@ startBtn.addEventListener('click', startChange);
 stopBtn.addEventListener('click', stopChange);
 
 function changeColor() {
-  bodyRef.style.backgroundColor = `${
-    colors[randomIntegerFromInterval(0, colors.length)]
-  }`;
+  bodyRef.style.backgroundColor =
+    colors[randomIntegerFromInterval(0, colors.length)];
 }
 function startChange() {
   startBtn.disabled = true;
